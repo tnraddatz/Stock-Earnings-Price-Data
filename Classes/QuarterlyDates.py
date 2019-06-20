@@ -56,11 +56,16 @@ class QuarterlyDates:
         self.driver.close()
 
     def readCSV(self):
+        script_dir = os.path.dirname(__file__)  # Script directory
+        full_path = os.path.join(script_dir, "../Data/QuarterlyDates.csv")
+        print(full_path)
         data = []
-        if path.exists("QuarterlyDates.csv"):
-            with open("QuarterlyDates.csv",'r') as f:
+        if path.exists(full_path):
+            with open(full_path,'r') as f:
                 reader = csv.reader(f)
                 for i, line in enumerate(reader):
                     data.append(line)
+        else: 
+            raise Exception("Cannot find CSV folder, you may need to generate one using the '.scrape_dates' function")
         return data
             

@@ -1,7 +1,7 @@
-from QuarterlyDates import QuarterlyDates
-from StockDates import StockDates
-from SpreadGenerator import SpreadGenerator
-from CreateGraph import CreateGraph
+from Classes.QuarterlyDates import QuarterlyDates
+from Classes.StockDates import StockDates
+from Classes.SpreadGenerator import SpreadGenerator
+from Classes.CreateGraph import CreateGraph
 
 ####### TICKER DATA #######
 TICKER_URLS =  { 
