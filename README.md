@@ -1,6 +1,6 @@
 # Stock Earnings Price Data 
 
-This project was used as a proof of concept for an investment thesis: "The daily closing stock price leading up to a company's earnings report can predict if that earnings report will be negative or positive. 
+This project was used as a proof of concept for an investment thesis: "The daily closing stock prices leading up to a company's earnings report can predict if that earnings report will be negative or positive. 
 
 # Program 
 
